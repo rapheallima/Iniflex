@@ -20,7 +20,7 @@ public class Funcionario extends Pessoa {
     public String toString() {
         DateTimeFormatter df = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         NumberFormat nf = NumberFormat.getCurrencyInstance(new Locale("pt", "BR"));
-        // Remove o símbolo R$ para focar na formatação pedida (milhar ponto, decimal vírgula)
+
         String salarioFormatado = nf.format(salario).replace("R$", "").trim();
 
         return String.format("Nome: %s | Data Nasc: %s | Salário: %s | Função: %s", nome, dataNascimento.format(df), salarioFormatado, funcao);
