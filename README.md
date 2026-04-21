@@ -5,7 +5,7 @@ em Java Core, Orientação a Objetos e manipulação de coleções.
 
 ## 🚀 Tecnologias Utilizadas
 
-- Java 17 (ou a sua versão)
+- Java 17 
 - Stream API para manipulação de dados
 - BigDecimal para operações financeiras precisas
 
